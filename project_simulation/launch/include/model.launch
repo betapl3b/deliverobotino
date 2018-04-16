@@ -1,0 +1,9 @@
+<launch>
+    <node name="kinect_frame" pkg="tf2_ros" type="static_transform_publisher" args="0.02 0 0.75 0 0 0 base_link kinect_link"/>
+    <node name="platform_frame" pkg="tf2_ros" type="static_transform_publisher" args="-0.05 0 0.13 0 0 0 base_link platform_link"/>
+    <node name="bridge_frame" pkg="tf2_ros" type="static_transform_publisher" args="-0.05 0 0.13 0 0 1.5707 base_link command_bridge_link"/>
+    <node name="anglebracket_usb_frame" pkg="tf2_ros" type="static_transform_publisher" args="0.008 0 0.137 0 0 1.5707 base_link anglebracketusb_link"/>
+    <node name="wheel0_frame" pkg="tf2_ros" type="static_transform_publisher" args="0.065 0.11 0.04 0 0 1.0466 base_link wheel0_link"/>
+    <node name="wheel1_frame" pkg="tf2_ros" type="static_transform_publisher" args="-0.13 0 0.04 0 0 0 base_link wheel1_link"/>
+    <node name="wheel2_frame" pkg="tf2_ros" type="static_transform_publisher" args="0.065 -0.11 0.04 0 0 -1.0466 base_link wheel2_link"/>
+</launch>
