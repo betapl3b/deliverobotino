@@ -1,10 +1,9 @@
 <launch>
     <include file="$(find project_simulation)/launch/include/world.launch"/>
     <include file="$(find project_simulation)/launch/include/model.launch"/>
-    <include file="$(find project_simulation)/launch/include/alvar.launch"/>
+<!--    <include file="$(find project_simulation)/launch/include/alvar.launch"/> -->
     <node name="LaserMaker" pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" args="image:=/camera/depth/image_raw"/>
     <node name="laser_frame" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 kinect_link camera_depth_frame"/>
-    <node name="world_cam_frame" pkg="tf2_ros" type="static_transform_publisher" args="7 0 0 3.1416 0 0 odom camera_link"/>
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find project_simulation)/rviz/config.rviz" />
 
 </launch>

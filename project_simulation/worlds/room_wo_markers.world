@@ -441,15 +441,15 @@
       <pose frame=''>6.34197 1.59156 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1817 36000000</sim_time>
-      <real_time>797 943391192</real_time>
-      <wall_time>1526318127 973695407</wall_time>
-      <iterations>782535</iterations>
+      <sim_time>3140 771000000</sim_time>
+      <real_time>1408 575879790</real_time>
+      <wall_time>1529144905 209891263</wall_time>
+      <iterations>1323735</iterations>
       <model name='Stop Sign'>
-        <pose frame=''>5.055 5.00475 -9e-06 -3e-06 -1.4e-05 -1.10682</pose>
+        <pose frame=''>5.055 5.00475 2e-06 -0.000133 -3.9e-05 -1.10682</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>5.055 5.00475 -9e-06 -3e-06 -1.4e-05 -1.10682</pose>
+          <pose frame=''>5.055 5.00475 2e-06 -0.000133 -3.9e-05 -1.10682</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
@@ -546,90 +546,50 @@
         </link>
       </model>
       <model name='kinect_sim'>
-        <pose frame=''>7 0 0 0 0 3.1416</pose>
+        <pose frame=''>7 0 0 0 0 -3.14159</pose>
         <scale>1 1 1</scale>
         <link name='kinect_sim::link'>
-          <pose frame=''>7 0 0 0 0 3.1416</pose>
-          <velocity>0 0 0 0 0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 -0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='marker1'>
-        <pose frame=''>-4 1.5 0.86 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='box'>
-          <pose frame=''>-4 1.5 0.86 0 -0 1.5707</pose>
+          <pose frame=''>7 0 0 0 0 -3.14159</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='marker2'>
-        <pose frame=''>-4 -1.5 0.86 0 2e-06 0</pose>
-        <scale>1 1 1</scale>
-        <link name='box'>
-          <pose frame=''>-4 -1.5 0.86 2e-06 -0 1.5707</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='marker3'>
-        <pose frame=''>-1 -2.5 0.86 4e-06 -2e-06 0.00024</pose>
-        <scale>1 1 1</scale>
-        <link name='box'>
-          <pose frame=''>-1 -2.5 0.86 -2e-06 -4e-06 1.57094</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='marker4'>
-        <pose frame=''>-1 2.5 0.86 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='box'>
-          <pose frame=''>-1 2.5 0.86 0 -0 1.5707</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <acceleration>0 0 -98 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='table'>
-        <pose frame=''>-1.56581 -1.30105 0.015571 0.038938 -0 -1.71579</pose>
+        <pose frame=''>-1.65012 -3.00004 -4e-06 -3e-06 1e-06 1.57098</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.56581 -1.30105 0.015571 0.038938 -0 -1.71579</pose>
+          <pose frame=''>-1.65012 -3.00004 -4e-06 -3e-06 1e-06 1.57098</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='table_0'>
-        <pose frame=''>-4.60536 -0.240939 0 0 0 -2.73553</pose>
+        <pose frame=''>-4.65205 -1.49912 -5e-06 0 -0 1.55405</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-4.60536 -0.240939 0 0 0 -2.73553</pose>
+          <pose frame=''>-4.65205 -1.49912 -5e-06 0 -0 1.55405</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 1.05783 1.3204 -0.569065 0</acceleration>
-          <wrench>0 0 1.05783 0 -0 0</wrench>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='table_1'>
-        <pose frame=''>-1.68337 4.20728 -1e-06 0 -1e-06 1.46952</pose>
+        <pose frame=''>-1.6508 3 -9e-06 0 -0 1.56965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.68337 4.20728 -1e-06 0 -1e-06 1.46952</pose>
+          <pose frame=''>-1.6508 3 -9e-06 0 -0 1.56965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='table_2'>
-        <pose frame=''>-4.22662 3.21823 -5e-06 -3e-06 0 2.26966</pose>
+        <pose frame=''>-4.65153 1.50121 -8e-06 0 -0 1.53853</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-4.22662 3.21823 -5e-06 -3e-06 0 2.26966</pose>
+          <pose frame=''>-4.65153 1.50121 -8e-06 0 -0 1.53853</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
@@ -641,7 +601,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>3.32899 -12.0356 8.31627 0 0.725961 1.40682</pose>
+        <pose frame=''>6.15964 -0.114279 5.03417 0 0.409962 -3.12437</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -1525,224 +1485,8 @@
       </link>
       <pose frame=''>6.04903 3.01832 0 0 -0 0</pose>
     </model>
-    <model name='marker3'>
-      <link name='box'>
-        <pose frame=''>0 0 0 0 -0 1.5707</pose>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>1.72 0.5 1.72</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>1.72 0.05 1.72</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-            <uri>model:///home/beta/catkin_ws/src/project_simulation/models/marker/materials/scripts</uri>
-            <uri>model:///home/beta/catkin_ws/src/project_simulation/models/marker/materials/textures</uri>
-            <name>Markers/Marker3</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <inertial>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-          <mass>1</mass>
-        </inertial>
-        <kinematic>1</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>4.5 0 1 0 -0 0</pose>
-    </model>
-    <model name='marker4'>
-      <link name='box'>
-        <pose frame=''>0 0 0 0 -0 1.5707</pose>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>1.72 0.5 1.72</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>1.72 0.05 1.72</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-            <uri>model:///home/beta/catkin_ws/src/project_simulation/models/marker/materials/scripts</uri>
-            <uri>model:///home/beta/catkin_ws/src/project_simulation/models/marker/materials/textures</uri>
-              <name>Markers/Marker4</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <inertial>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-          <mass>1</mass>
-        </inertial>
-        <kinematic>1</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>5.5 0 1 0 -0 0</pose>
-    </model>
-    <model name='marker1'>
-      <link name='box'>
-        <pose frame=''>0 0 0 0 -0 1.5707</pose>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>1.72 0.5 1.72</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>1.72 0.05 1.72</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-            <uri>model:///home/beta/catkin_ws/src/project_simulation/models/marker/materials/scripts</uri>
-            <uri>model:///home/beta/catkin_ws/src/project_simulation/models/marker/materials/textures</uri>
-              <name>Markers/Marker1</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <inertial>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-          <mass>1</mass>
-        </inertial>
-        <kinematic>1</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>3.5 0 1 0 -0 0</pose>
-    </model>
-    <model name='marker2'>
-      <link name='box'>
-        <pose frame=''>0 0 0 0 -0 1.5707</pose>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>1.72 0.5 1.72</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>1.72 0.05 1.72</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-            <uri>model:///home/beta/catkin_ws/src/project_simulation/models/marker/materials/scripts</uri>
-            <uri>model:///home/beta/catkin_ws/src/project_simulation/models/marker/materials/textures</uri>
-              <name>Markers/Marker2</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <inertial>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-          <mass>1</mass>
-        </inertial>
-        <kinematic>1</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose frame=''>2.5 0 1 0 -0 0</pose>
-    </model>
     <model name='kinect_sim'>
-      <pose frame=''>7 0 0 0 0 3.1416</pose>
+      <pose frame=''>7 0 0 0 -0 -3.14159</pose>
       <link name='kinect_sim::link'>
         <inertial>
           <mass>0.1</mass>

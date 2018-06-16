@@ -6,7 +6,7 @@ material Markers/Marker4
     {
       texture_unit
       {
-        texture test.png
+        texture 4.png
       }
     }
   }

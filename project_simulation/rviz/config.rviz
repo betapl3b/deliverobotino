@@ -23,14 +23,8 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Global Options1
-        - /robotino1
         - /RobotModel1/Links1
         - /RobotModel1/Links1/kinect_link1
-        - /kinect1
-        - /LaserScan1
-        - /world_cam1
-        - /camera1
       Splitter Ratio: 0.5
     Tree Height: 279
   - Class: rviz_plugin_tutorials/Teleop
@@ -192,7 +186,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: odom
+    Fixed Frame: world
     Frame Rate: 30
   Name: root
   Tools:
@@ -213,7 +207,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 26.4670315
+      Distance: 9.05849648
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
@@ -228,10 +222,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.309799075
+      Pitch: 0.549799025
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.56043756
+      Yaw: 3.07543564
     Saved: ~
 Window Geometry:
   Displays:
