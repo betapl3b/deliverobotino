@@ -20,8 +20,8 @@
   <node name="robotino_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
    args="-urdf -param robot_description -model mybot" />
 
-    <node name="world_odom_frame" pkg="tf2_ros" type="static_transform_publisher" args="7 0 0 3.1416 0 0 world odom"/>
-    <node name="world_camera_frame" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 world camera_link"/>
+    <node name="world_odom_frame" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 world odom"/>
+    <node name="world_camera_frame" pkg="tf2_ros" type="static_transform_publisher" args="7 0 0 3.1416 0 0 world camera_link"/>
 
 </launch>
 

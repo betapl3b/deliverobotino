@@ -1787,8 +1787,8 @@
           <camera name='__default__'>
             <horizontal_fov>1.047</horizontal_fov>
             <image>
-              <width>320</width>
-              <height>240</height>
+              <width>1920</width>
+              <height>1080</height>
             </image>
             <clip>
               <near>0.1</near>
@@ -1802,11 +1802,8 @@
             <updateRate>30.0</updateRate>
             <cameraName>usb_cam</cameraName>
             <frameName>/camera_link</frameName>
-            <CxPrime>320.5</CxPrime>
-            <Cx>320.5</Cx>
-            <Cy>240.5</Cy>
             <hackBaseline>0</hackBaseline>
-            <focalLength>320.000101</focalLength>
+            <focalLength>1663.148138</focalLength>
             <distortionK1>0.0</distortionK1>
             <distortionK2>0.0</distortionK2>
             <distortionK3>0.0</distortionK3>
