@@ -1,5 +1,5 @@
 <launch>
-	<arg name="marker_size" default="102.5964912" />
+	<arg name="marker_size" default="120" />
 	<arg name="max_new_marker_error" default="0.0001" />
 	<arg name="max_track_error" default="0.0001" />
 	<arg name="cam_image_topic" default="/usb_cam/image_raw" />
