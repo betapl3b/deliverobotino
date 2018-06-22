@@ -1,6 +1,6 @@
-robot_radius: 0.2
-controller_frequency: 10.0
+robot_radius: 0.3
+controller_frequency: 6.0
 controller_patience: 5.0
-clearing_radius: 0.24
+clearing_radius: 0.31
 footprint_padding: 0.03
-recovery_behavior_enabled: false
+recovery_behavior_enabled: true

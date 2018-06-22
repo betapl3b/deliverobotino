@@ -6,4 +6,5 @@
     <node name="laser_frame" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 kinect_link camera_depth_frame"/>
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find project_simulation)/rviz/config.rviz" />
     <include file="$(find project_simulation)/launch/include/mb_mapping.launch"/>
+    <node name="world_camera_frame" pkg="tf2_ros" type="static_transform_publisher" args="7 0 0 -1.5707 3.1416 1.5707 world camera_link"/>
 </launch>

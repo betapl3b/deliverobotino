@@ -9,7 +9,7 @@
   <arg name="debug" default="false"/>
   
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find project_simulation)/worlds/room.world"/>
+    <arg name="world_name" value="$(find project_simulation)/worlds/room_filled"/>
     <arg name="paused" value="$(arg paused)"/>
     <arg name="use_sim_time" value="$(arg use_sim_time)"/>
     <arg name="gui" value="$(arg gui)"/>
@@ -18,10 +18,9 @@
   </include>
 <param name="robot_description" command="$(find xacro)/xacro.py '$(find robotino_description)/urdf/robotino_platform_kinect.urdf.xacro'"/>
   <node name="robotino_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
-   args="-urdf -param robot_description -model mybot" />
+   args="-urdf -param robot_description -model mybot -x 1 -y -0.3 -Y 3.14159 " />
 
-    <node name="world_odom_frame" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 world odom"/>
-    <node name="world_camera_frame" pkg="tf2_ros" type="static_transform_publisher" args="7 0 0 -1.5707 3.1416 1.5707 world camera_link"/>
+<!--    <node name="world_odom_frame" pkg="tf2_ros" type="static_transform_publisher" args="-5 -4 0 0 0 0 world odom"/> -->
 
 </launch>
 
