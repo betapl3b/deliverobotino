@@ -1,8 +1,11 @@
 local_costmap:
-    publish_voxel_map: false
-    global_frame: world
+    global_frame: odom
     robot_base_frame: base_link
-    update_frequency: 2
-    publish_frequency: 2.0
+    update_frequency: 1
+    publish_frequency: 1
     static_map: false
     rolling_window: true
+    transform_tolerance: 10.0
+    width: 15.0
+    height: 15.0
+    meter_scoring: true
